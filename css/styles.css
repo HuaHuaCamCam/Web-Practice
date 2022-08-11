@@ -66,13 +66,13 @@ header .nav {
 }
 
  .nav-2.nav {
- background-color: #b1c5ff;
- position: sticky;
- left: 10;
- top: 0;
+  background-color: #f5f0e8;
+  position: sticky;
+  left: 10;
+  top: 0;
 
 
-  opacity: 0.8;
+  opacity: 0.5;
  
 }
 .nav .sub-nav {
@@ -366,22 +366,27 @@ footer > nav {
       .background-s5 .text-styles {
      font-size: 0.5rem;
     }
+    
+        .footer-sb {
+          grid-template-columns: 1fr;
+          grid-template-rows: repeat(6, 1fr);
+        }
+        footer > nav {
+          display: none;
+        }
+     
   }
-
-    .footer-sb {
-      grid-template-columns: 1fr;
-      grid-template-rows: repeat(6, 1fr);
-    }
-    footer > nav {
-      display: none;
-    }
- 
 
 @media screen and (max-width: 1200px) {
   .text-allgemein {
     width: 60vw;
 
   }
+
+  .background-s5 .text-styles {
+    font-size: 1rem;
+   }
+   
 
 
  
